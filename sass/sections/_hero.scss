@@ -1,4 +1,4 @@
-.overlay {
+.hero__overlay {
     max-width: 1600px;
     height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Overlay.jpg);
@@ -11,7 +11,7 @@
     margin-left: auto;
 }
 
-.hero-header {
+.hero__title {
     max-width: 696px;
     color: var(--primary-white-color);
     font-size: 44px;

@@ -1,20 +1,20 @@
-.section-work {
+.section__work {
     padding-top: 0;
 }
 
-.work-list {
+.work__list {
     display: flex;
 }
 
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.work-wrapper {
+.work__wrapper {
     position: relative;
 }
 
-.work-description {
+.work__description {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +28,4 @@
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.block-header {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 50px;
 }
